@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <magepim translate="label" module="pimcore">
+            <label>Magepim</label>
+            <sort_order>506</sort_order>
+        </magepim>
+    </tabs>
+    <sections>
+        <magepim_pimcore translate="label" module="pimcore">
+            <label>Pimcore Integration</label>
+            <tab>magepim</tab>
+            <sort_order>120</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>0</show_in_website>
+            <show_in_store>0</show_in_store>
+            <groups>
+                <pimcore translate="label" module="pimcore">
+                    <label>General</label>
+                    <expanded>1</expanded>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>0</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <fields>
+                        <path translate="label comment" module="pimcore">
+                            <label><![CDATA[Path to Pimcore from server root (no trailing slash)]]></label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>5</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </path>
+                    </fields>
+                </pimcore>
+            </groups>
+        </magepim_pimcore>
+    </sections>
+</config>

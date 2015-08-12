@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    Magepim
+ * @package     Magepim_Pimcore
+ * @copyright   Copyright (c) 2015 MagePim. (http://www.magepim.com)
+ * @author      Richard Cleverley <richard@magepim.com>
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config>
+    <modules>
+        <Magepim_Pimcore>
+            <version>1.0.0.0</version>
+        </Magepim_Pimcore>
+    </modules>
+    <global>
+        <models>
+            <pimcore>
+                <class>Magepim_Pimcore_Model</class>
+            </pimcore>
+        </models>
+        <helpers>
+            <pimcore>
+                <class>Magepim_Pimcore_Helper</class>
+            </pimcore>
+        </helpers>
+    </global>
+</config>
